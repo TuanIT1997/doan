@@ -16,7 +16,11 @@ document.getElementById("header").innerHTML =
             '</div>'+
         '</div>'+
         '<a class="bar-item button ">'+
+<<<<<<< HEAD:doan/component/header.js
             '<img class="image" src="/doan/img/—Pngtree—coffee_3626459.png" alt=""style="height: 20px;transform: scale(1.5);">'+
+=======
+            '<img class="image" src="https://tuanit1997.github.io/doan/img/%E2%80%94Pngtree%E2%80%94coffee_3626459.png" alt=""style="height: 20px;transform: scale(1.5);">'+
+>>>>>>> 8c257c36f3b554fc911e2341688cb6e915b911b6:component/header.js
         '</a>'+
         '<a class="bar-item button hide-mobile" href="/index.html">Trang chủ</a>'+
         '<a class="bar-item button hide-mobile">Giới thiệu</a>'+
@@ -49,5 +53,10 @@ function showHideMenu(event,exam){
     }
 }
 document.getElementsByClassName("hana-cart")[0].addEventListener("click",function(){
+<<<<<<< HEAD:doan/component/header.js
     window.open('/doan/page/giohang/index.html','_self');
+})})
+=======
+    window.open('/page/giohang/index.html','_self');
 })
+>>>>>>> 8c257c36f3b554fc911e2341688cb6e915b911b6:component/header.js
