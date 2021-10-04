@@ -57,7 +57,7 @@ function menuShop(){
         text += 
         '<div class="container margin-bottom col s12 m6 l3">'+
             '<div class="card center"  style="cursor: pointer;">'+
-                '<img class="image" style="width: 100%;" src="../../DATA/IMG/'+ listMenu[i].name +'.jpg" alt="">'+
+                '<img class="image" style="width: 100%;" src="/doan/DATA/IMG/'+ listMenu[i].name +'.jpg" alt="">'+
                 '<h5>'+ listMenu[i].name+'</h5>'+
                 '<h6 class="text-green" style="padding-bottom: 16px;">'+listMenu[i].money+'.000đ</h6>'+
             '</div>'+
@@ -69,7 +69,7 @@ function menuShop(){
         listMenuEl[i].addEventListener("click",function(){
             localStorage.setItem("localSanPham",listMenu[i].name);
             localStorage.setItem("giaSanPham",listMenu[i].money)
-            window.open("../sanpham/index.html","_self")
+            window.open("/doan/page/sanpham/index.html","_self")
         })
     }
     let listText;

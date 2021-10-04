@@ -15,7 +15,7 @@ function homeBest(){
         text += 
         '<div class="container margin-bottom col s12 m6 l3">'+
             '<div class="card center" style="cursor: pointer;">'+
-                '<img class="image" style="width: 100%;" src="./DATA/IMG/'+ menu[i].name +'.jpg" alt="">'+
+                '<img class="image" style="width: 100%;" src="/doan/DATA/IMG/'+ menu[i].name +'.jpg" alt="">'+
                 '<h5>'+ menu[i].name+'</h5>'+
                 '<h6 class="text-green" style="padding-bottom: 16px;">'+menu[i].money+'.000đ</h6>'+
             '</div>'+
@@ -28,7 +28,7 @@ function homeBest(){
         listMenuEl[i].addEventListener("click",function(){
             localStorage.setItem("localSanPham",listMenu[i].name);
             localStorage.setItem("giaSanPham",listMenu[i].money)
-            window.open("/page/sanpham/index.html","_self")
+            window.open("/doan/page/sanpham/index.html","_self")
         })
     }
 }

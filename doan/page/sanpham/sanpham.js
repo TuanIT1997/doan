@@ -25,7 +25,7 @@ for (let i = 0; i < sanPhamEl.length; i++) {
 }
 let sanPhamImg = document.getElementsByClassName("sanpham-image");
 for (let i = 0; i < sanPhamImg.length; i++) {
-    sanPhamImg[i].src = '../../DATA/IMG/'+sanPhamValue+'.jpg';
+    sanPhamImg[i].src = '/doan/DATA/IMG/'+sanPhamValue+'.jpg';
 }
 function updateTotal(){
     let total = localStorage.getItem("giaSanPham");

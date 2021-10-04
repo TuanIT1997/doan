@@ -33,7 +33,7 @@ function loadDate(){
         text += 
             '<div class="row padding-16 border-bottom">'+
                 '<div class="left" style="width: 110px;">'+
-                    '<img class="image" src="/DATA/IMG/'+gioHang[i].name +'.jpg" alt="">'+
+                    '<img class="image" src="/doan/DATA/IMG/'+gioHang[i].name +'.jpg" alt="">'+
                 '</div>'+
                 '<div class="left container row margin-left">'+
                     '<div class="left">'+
