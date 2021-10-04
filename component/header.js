@@ -50,4 +50,4 @@ function showHideMenu(event,exam){
 }
 document.getElementsByClassName("hana-cart")[0].addEventListener("click",function(){
     window.open('/doan/page/giohang/index.html','_self');
-}
+})
