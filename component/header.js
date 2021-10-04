@@ -16,7 +16,7 @@ document.getElementById("header").innerHTML =
             '</div>'+
         '</div>'+
         '<a class="bar-item button ">'+
-            '<img class="image" src="../../img/—Pngtree—coffee_3626459.png" alt=""style="height: 20px;transform: scale(1.5);">'+
+            '<img class="image" src="https://tuanit1997.github.io/doan/img/%E2%80%94Pngtree%E2%80%94coffee_3626459.png" alt=""style="height: 20px;transform: scale(1.5);">'+
         '</a>'+
         '<a class="bar-item button hide-mobile" href="../../index.html">Trang chủ</a>'+
         '<a class="bar-item button hide-mobile">Giới thiệu</a>'+
