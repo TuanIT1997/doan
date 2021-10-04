@@ -7,7 +7,7 @@ document.getElementById("header").innerHTML =
                 '<i class="fas fa-times"></i>'+
             '</button>'+
             '<div class="dropdown-content bar-block card-4 animate-left" style="display: block;width:50%;height:100%">'+
-                '<a class="button bar-item" href="index.html">Trang chủ</a>'+
+                '<a class="button bar-item" href="/doan/index.html">Trang chủ</a>'+
                 '<a class="button bar-item" href="#">Giới thiệu</a>'+
                 '<a class="button bar-item" href="/doan/page/shop/index.html">Menu nước</a>'+
                 '<a class="button bar-item" href="#">Hệ thống cửa hàng</a>'+
@@ -18,7 +18,7 @@ document.getElementById("header").innerHTML =
         '<a class="bar-item button ">'+
             '<img class="image" src="/doan/img/—Pngtree—coffee_3626459.png" alt=""style="height: 20px;transform: scale(1.5);">'+
         '</a>'+
-        '<a class="bar-item button hide-mobile" href="/index.html">Trang chủ</a>'+
+        '<a class="bar-item button hide-mobile" href="/doan/index.html">Trang chủ</a>'+
         '<a class="bar-item button hide-mobile">Giới thiệu</a>'+
         '<a class="bar-item button hide-mobile" href="/doan/page/shop/index.html">Menu nước</a>'+
         '<a class="bar-item button hide-ipad">Hệ thống cửa hàng</a><a class="bar-item button hide-ipad">Nhượng quyền</a>'+
