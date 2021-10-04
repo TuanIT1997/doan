@@ -55,7 +55,7 @@ function showHideMenu(event,exam){
 document.getElementsByClassName("hana-cart")[0].addEventListener("click",function(){
 <<<<<<< HEAD:doan/component/header.js
     window.open('/doan/page/giohang/index.html','_self');
-})})
+})
 =======
     window.open('/page/giohang/index.html','_self');
 })
