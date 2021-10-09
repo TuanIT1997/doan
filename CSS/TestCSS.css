@@ -144,6 +144,9 @@ button, input, select, textarea, optgroup {
     .hide-mobile{
         display: none !important    ;
     }
+    .container-mobi{
+        padding: 0.01em 8px !important;
+    }
 }
 @media (min-width: 601px) {
     .col-s-center{
@@ -501,4 +504,7 @@ button, input, select, textarea, optgroup {
 .hana-cart:hover{
     background-color: #fff;
     color: #f44336 !important;
+}
+.container-mobi{
+    padding: 0.01em 16px
 }
