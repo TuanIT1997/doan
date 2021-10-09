@@ -35,7 +35,7 @@ function loadDate(){
                 '<div class="left" style="width: 110px;">'+
                     '<img class="image" src="/doan/DATA/IMG/'+gioHang[i].name +'.jpg" alt="">'+
                 '</div>'+
-                '<div class="left container row margin-left">'+
+                '<div class="left container-mobi row margin-left">'+
                     '<div class="left">'+
                         '<h5 style="margin: 0;">'+gioHang[i].name +'</h5>'+
                         '<p class="text-green" style="margin: 4px 0 0 0;">'+total+'.000đ</p>'+
