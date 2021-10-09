@@ -38,7 +38,7 @@ function loadDate(){
                 '<div class="left container-mobi row margin-left">'+
                     '<div class="left">'+
                         '<h5 style="margin: 0;">'+gioHang[i].name +'</h5>'+
-                        '<p class="text-green" style="margin: 4px 0 0 0;">'+total+'.000đ</p>'+
+                        '<p class="text-green" style="margin: 4px 0 0 0;">'+((gioHang[i].size == "M")? gioHang[i].gia : gioHang[i].gia + 15)+'.000đ</p>'+
                         '<p style="margin: 4px 0 0 0;;">'+gioHang[i].sugar +' sugar <b>/</b> '+gioHang[i].ice +' ice</p>'+
                         '<div style="margin: 4px 0 0 0;;">'+
                             '<input class="input left green" type="button" onclick="soLuong(this,'+i+')" value="-" style="width: 24px;height: 24px; cursor: pointer;">'+
