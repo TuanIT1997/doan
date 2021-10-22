@@ -521,7 +521,7 @@ button, input, select, textarea, optgroup {
     padding: 0.01em 16px
 }
 .bgimg1{
-    background-image: url(/doan/img/84770f_e2414b51861b44239ca93821cb1f359b_mv2_d_5249_2889_s_4_2.webp);
+    background-image: url(/doan/img/84770f_e2414b51861b44239ca93821cb1f359b_mv2_d_5249_2889_s_4_2.png);
     height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -529,7 +529,7 @@ button, input, select, textarea, optgroup {
     background-size: cover;
 }
 .bgimg2{
-    background-image: url(/doan/img/teafarm.webp);
+    background-image: url(/doan/img/teafarm.png);
     height: 500px;
     background-attachment: fixed;
     background-position: center;
