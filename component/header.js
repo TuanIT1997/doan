@@ -14,7 +14,7 @@ document.getElementById("header").innerHTML =
                 '<a class="button bar-item" href="#">Tuyển dụng</a><a class="button bar-item" href="#">Liên hệ</a>'+
             '</div>'+
         '</div>'+
-        '<a class="bar-item">'+
+        '<a class="bar-item" href="https://tuanit1997.github.io/doan/">'+
             '<img class="image logo" src="/doan/img/—Pngtree—coffee_3626459.png" alt=""style="height: 20px;transform: scale(1.5);">'+
         '</a>'+
         '<a class="bar-item button hide-mobile">Giới thiệu</a>'+
